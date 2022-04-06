@@ -1,12 +1,11 @@
 {
-  "your": "json config here",
   "name": "@m3t0sh1/exercise-publish-package",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "publishConfig": {
+    "@m3t0sh1:registry": "https://npm.pkg.github.com/"
+  }
 }
