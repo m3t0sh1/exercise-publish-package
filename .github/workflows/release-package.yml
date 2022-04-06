@@ -4,6 +4,10 @@ on:
   release:
     types: [created]
 
+defaults:
+  run:
+    working-directory: ./sample-packages/npm/
+
 jobs:
   build:
     runs-on: ubuntu-latest
